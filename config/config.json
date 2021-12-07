@@ -1,5 +1,5 @@
 {
-  "JwtSecret": "betterAdminSecret",
+  "JwtSecret": "betterConsoleSecret",
   "Dooray": {
     "LdapDialUrl": "ldaps://ldap.dooray.com:636"
   },
@@ -7,5 +7,8 @@
     "OAuthUri": "https://accounts.google.com/o/oauth2/auth",
     "AuthUri": "https://www.googleapis.com/oauth2/v1/userinfo",
     "TokenUri": "https://oauth2.googleapis.com/token"
+  },
+  "WebHookGo": {
+    "Url": "http://127.0.0.1:52802"
   }
 }

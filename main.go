@@ -207,6 +207,7 @@ func main() {
 	controllers.AccessControlController{}.Init(e.Group("/api/access-control"))
 	controllers.OrganizationController{}.Init(e.Group("/api/organizations"))
 	controllers.WebHookController{}.Init(e.Group("/api/web-hooks"))
+	controllers.WebHookGoController{}.Init(e.Group("/api/web-hook-go"))
 
 	color.Println(banner, color.Red("v"+Version), color.Blue(website))
 	e.Start(":2021")

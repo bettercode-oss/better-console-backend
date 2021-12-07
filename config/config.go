@@ -14,6 +14,9 @@ var Config = struct {
 		AuthUri  string
 		TokenUri string
 	}
+	WebHookGo struct {
+		Url string
+	}
 }{}
 
 func InitConfig(cfg string) {
